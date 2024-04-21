@@ -5,26 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cec81e76-86fa-4488-bc63-90f95255d203" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/src/main/java/com/spring/ApiGWApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/src/test/java/com/spring/ApiGWApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifcation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/NotificationApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/controller/NotificationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/model/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/repository/NotificationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/service/NotifcationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/service/NotificationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/service/NotificationSerivceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifcation/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifcation/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifcation/src/test/java/com/spring/NotificationApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp/src/main/java/com/spring/RabbitMQApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp/src/main/java/com/spring/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp/src/main/java/com/spring/RabbitMQMessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp/src/test/java/com/spring/RabbitMQApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/config/NotificationConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/spring/fraud/FraudClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/spring/fraud/FraudClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/spring/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/spring/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notifcation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notifcation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/NotificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/NotificationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notifcation/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/notifcation/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -112,6 +105,9 @@
       <recent name="com.spring.dto" />
       <recent name="com.spring.fraud" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.spring" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.spring.dto" />
     </key>
@@ -129,19 +125,6 @@
     <configuration name="ApiGWApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="apigw" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.ApiGWApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="customer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.CustomerApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.spring.*" />
@@ -197,13 +180,21 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ApiGWApplication" />
         <item itemvalue="Spring Boot.NotificationApplication" />
+        <item itemvalue="Spring Boot.ApiGWApplication" />
         <item itemvalue="Spring Boot.FraudApplication" />
-        <item itemvalue="Spring Boot.CustomerApplication (1)" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +215,7 @@
       <updated>1713604613552</updated>
       <workItem from="1713604618293" duration="17177000" />
       <workItem from="1713644829264" duration="9449000" />
+      <workItem from="1713691942867" duration="5259000" />
     </task>
     <servers />
   </component>
