@@ -5,12 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cec81e76-86fa-4488-bc63-90f95255d203" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/main/java/com/spring/ApiGWApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/test/java/com/spring/ApiGWApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifcation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/NotificationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/controller/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/repository/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/service/NotifcationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/service/NotificationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifcation/src/main/java/com/spring/service/NotificationSerivceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifcation/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifcation/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifcation/src/test/java/com/spring/NotificationApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurkera-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurkera-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/spring/fraud/FraudClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/spring/fraud/FraudClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/spring/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/spring/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
         <option value="Record" />
       </list>
     </option>
@@ -43,9 +58,9 @@
   <component name="KubernetesSettings">
     <option name="contextName" value="docker-desktop" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2fNc9j9Xc9djbVAmqZLmAHvH97Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,45 +69,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.docker-compose.yaml: Compose Deployment.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.customer [clean].executor": "Run",
-    "Maven.fraud [clean].executor": "Run",
-    "Maven.mcroservices [clean].executor": "Run",
-    "Maven.mcroservices [install].executor": "Run",
-    "Maven.mcroservices [validate].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.CustomerApplication (1).executor": "Run",
-    "Spring Boot.CustomerApplication.executor": "Run",
-    "Spring Boot.EurekaServerApplication.executor": "Run",
-    "Spring Boot.FraudApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/Users/zena/Desktop/mcroservices/fraud/src/main/java/com/spring",
-    "last_opened_file_path": "/Users/zena/Desktop/microservices",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.customer [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.fraud [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mcroservices [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mcroservices [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mcroservices [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGWApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CustomerApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CustomerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.FraudApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.NotificationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/zena/Desktop/mcroservices/fraud/src/main/java/com/spring&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zena/Desktop/microservices&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.spring.fraud" />
+      <recent name="com.spring.service" />
       <recent name="com.spring.dto" />
+      <recent name="com.spring.fraud" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.spring.dto" />
@@ -108,6 +126,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="ApiGWApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="apigw" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.ApiGWApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="customer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.CustomerApplication" />
@@ -147,26 +178,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="notifcation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.NotificationApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ApiGWApplication" />
+        <item itemvalue="Spring Boot.NotificationApplication" />
         <item itemvalue="Spring Boot.FraudApplication" />
         <item itemvalue="Spring Boot.CustomerApplication (1)" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
-        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713604613552</updated>
       <workItem from="1713604618293" duration="17177000" />
-      <workItem from="1713644829264" duration="4122000" />
+      <workItem from="1713644829264" duration="9449000" />
     </task>
     <servers />
   </component>

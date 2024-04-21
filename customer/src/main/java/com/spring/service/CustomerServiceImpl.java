@@ -43,5 +43,7 @@ public class CustomerServiceImpl implements CustomerService {
             throw new IllegalStateException("Fraudster");
         }
         //send notification
+
+         client.sendNotification(customer.getId());
     }
 }

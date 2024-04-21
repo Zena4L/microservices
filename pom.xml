@@ -13,6 +13,8 @@
         <module>fraud</module>
         <module>eurkera-server</module>
         <module>client</module>
+        <module>apigw</module>
+        <module>notifcation</module>
     </modules>
 
     <properties>
