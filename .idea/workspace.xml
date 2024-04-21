@@ -5,45 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cec81e76-86fa-4488-bc63-90f95255d203" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/spring/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/spring/fraud/FraudCheckResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/spring/fraud/FraudClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/test/java/com/spring/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/spring/CustomerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/spring/config/CustomerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/spring/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/spring/dto/CustomerRegistrationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/spring/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/spring/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/spring/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/spring/service/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/test/java/com/spring/CustomerApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurkera-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurkera-server/src/main/java/com/spring/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurkera-server/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurkera-server/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurkera-server/src/test/java/com/spring/EurekaServerApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/com/spring/FraudApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/com/spring/controller/FraudCheckController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/com/spring/model/Fraud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/com/spring/repository/FraudCheckHistoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/com/spring/service/FraudCheckService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/com/spring/service/FraudCheckServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/test/java/com/spring/FraudApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurkera-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurkera-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,17 +32,21 @@
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "contexts": [
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
     {
-      "name": "docker-desktop"
+      &quot;name&quot;: &quot;docker-desktop&quot;
     }
   ],
-  "isMigrated": true
-}]]></component>
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="KubernetesSettings">
     <option name="contextName" value="docker-desktop" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2fNc9j9Xc9djbVAmqZLmAHvH97Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -88,6 +59,7 @@
     "Docker.docker-compose.yaml: Compose Deployment.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.customer [clean].executor": "Run",
+    "Maven.fraud [clean].executor": "Run",
     "Maven.mcroservices [clean].executor": "Run",
     "Maven.mcroservices [install].executor": "Run",
     "Maven.mcroservices [validate].executor": "Run",
@@ -106,6 +78,7 @@
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "/Users/zena/Desktop/mcroservices/fraud/src/main/java/com/spring",
+    "last_opened_file_path": "/Users/zena/Desktop/microservices",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -134,7 +107,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CustomerApplication (1)">
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration name="CustomerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="customer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.CustomerApplication" />
@@ -175,7 +148,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -188,8 +163,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CustomerApplication (1)" />
         <item itemvalue="Spring Boot.FraudApplication" />
+        <item itemvalue="Spring Boot.CustomerApplication (1)" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
       </list>
@@ -211,6 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713604613552</updated>
       <workItem from="1713604618293" duration="17177000" />
+      <workItem from="1713644829264" duration="4122000" />
     </task>
     <servers />
   </component>
